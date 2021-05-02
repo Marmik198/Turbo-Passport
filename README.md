@@ -5,7 +5,7 @@
 
 <br>
 
-# About Turbo-Password:
+# About Turbo-Passport:
 
 We at Turbo-Password provide online services like booking appointment for passport verification, the requests here also get authorized by an Admin, etc.
 Thus, helping the users by reducing their struggle for getting a passport.
