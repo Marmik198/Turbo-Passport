@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!--Style css-->
     <link rel="stylesheet" href="css/style.css">
@@ -44,7 +44,7 @@
         </div>
 
         <ul class="hide">
-            <li><a href="#Home">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="#Services">Services</a></li>
             <li><a href="#About">About Us</a></li>
             <li><a href="#Contact">Contact Us</a></li>
@@ -60,12 +60,12 @@
 
 
     </nav>
+	
+	
+    <!--Carousal-->
 
 
-    <!--Carousel-->
-
-
-    <div id="carouselExampleCaptions Home" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -76,7 +76,7 @@
                 <img src="image/1.jpg" class="d-block w-100 carousalimage" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Indian passport</h2>
-                    <p>Proud to be an Indian</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
                     <button class="btn btn-danger">Foreign Affairs</button>
                     <button class="btn btn-primary">Passport Service</button>
                     <button class="btn btn-success">Videsh Bhavan</button>
@@ -86,7 +86,7 @@
                 <img src="image/2.jpg" class="d-block w-100 carousalimage" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Videsh Bhavan, Mumbai</h2>
-                    <p>Proud to be an Indian</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
                     <button class="btn btn-danger">Foreign Affairs</button>
                     <button class="btn btn-primary">Passport Service</button>
                     <button class="btn btn-success">Videsh Bhavan</button>
@@ -96,7 +96,7 @@
                 <img src="image/3.jpg" class="d-block w-100 carousalimage" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Types of Indian Passport</h2>
-                    <p>Proud to be an Indian</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
                     <button class="btn btn-danger">Foreign Affairs</button>
                     <button class="btn btn-primary">Passport Service</button>
                     <button class="btn btn-success">Videsh Bhavan</button>
@@ -113,14 +113,77 @@
         </button>
     </div>
 
+    <div class="tp"></div>
+
+
+    <!--Services-->
+
+    <div class="section section-white no-bottom-padding" id="Services">
+        <div class="section-heading">
+            <h3 align="center" style="font-size:40px"><b><u>Services</u></b></h3><br>
+        </div>
+        <div class="container-1">
+            <div class="a">
+                <p class="grid-item">Book An Appointment</p>
+            </div>
+            <div class="b">
+                <p class="grid-item">Check Your Status</p>
+            </div>
+            <div class="c">
+                <p class="grid-item">Admin Login</p>
+            </div>
+        </div>
+    </div><br><br>
+
+
+
+    <!--About-->
+
+    <div class="section section-white no-bottom-padding" id="About">
+        <div class="section-heading">
+            <h3 align="center" style="font-size:40px"><b><u>About</u></b></h3><br>
+        </div>
+        <div class="container my-4">
+            <div class="row featurette d-flex justify-content-center align-items-center text-center">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Passport Appointments <span class="text-muted">It’ll blow your mind.</span></h2>
+                    <p class="lead">Book passport appointments online and grt appropriate feedback.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="image/post1.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+                </div>
+            </div>
+            <div class="row featurette d-flex justify-content-center align-items-center text-center">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Types of Passport <span class="text-muted">It’ll blow your mind.</span></h2>
+                    <p class="lead">Know about the different types of passports, and learn how to apply for it.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="image/post2.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+                </div>
+            </div>
+            <div class="row featurette d-flex justify-content-center align-items-center text-center">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Videsh Bhawan, Mumbai <span class="text-muted">It’ll blow your mind.</span></h2>
+                    <p class="lead">Passport Verification Headquarters at Mumbai, BKC popularly known as Videsh Bhavan.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="image/post3.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 
 
     <!--Contact-->
 
-    <div class="main">
-        <div class="head" id="contact">
-            <h1 class="heading">Contact</h1>
+    <div class="section section-white no-bottom-padding" id="Contact">
+        <div class="head" id="Contact">
+            <div class="section-heading">
+                <h3 align="center" style="font-size:40px"><b><u>Contact</u></b></h3><br>
+            </div>
             <div class="para">We appreciate your suggestions and will surely work through them.<br> Feel free to contact us.</div>
         </div>
 
@@ -134,7 +197,7 @@
 
     </div>
 
-        <img src="image/map.jpg" alt="Map" class="map">
+    <img src="image/map.jpg" alt="Map" class="map">
 
 
 
@@ -180,8 +243,8 @@
     </section>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+	
 </body>
 
 </html>
