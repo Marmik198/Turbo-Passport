@@ -5,7 +5,7 @@
 
 
 <head>
-    <title>File Cyber Crime Complain</title>
+    <title>File an Application</title>
     <link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="css/welcome.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

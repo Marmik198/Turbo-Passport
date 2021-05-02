@@ -89,10 +89,10 @@ public class EndpointController {
        	List<ApplyForPassportVerification> thePassportApplications = (List<ApplyForPassportVerification>) applyForPassportVerificationRepository.findAll();
    		// add the customers to the model
    		theModel.addAttribute("listPassportApplications", thePassportApplications);
-   		return "view_applications";
+   		return "viewApplication";
    	}
        
-       @GetMapping("/admin/deleteCyberCrimeComplaints")
+       @GetMapping("/admin/deleteApplication")
    	public String deleteApplications(@RequestParam("recordId") int id) {
    				// delete the customer
     	   applyForPassportVerificationRepository.deleteById(id);
@@ -106,38 +106,41 @@ public class EndpointController {
         
        @RequestMapping("/admin/getStatus")
        public String getStatus(@RequestParam("statusId") int id, @RequestParam("complaintType") int type, Model model) {
-   
+    	   if(type==1) {
        		Optional<ApplyForPassportVerification> object = applyForPassportVerificationRepository.findById(id);
        		if(object.isPresent()) {
        			ApplyForPassportVerification applyForPassportVerification = object.get();
        			model.addAttribute("applyForPassportVerification", applyForPassportVerification);
-       		}
-       		return "status_applications";
+       		} 
+    	   }
+       		return "status";
        }
        
       
        @GetMapping("/admin/changeStatustoGreen")
        public String changeStatustoGreen(@RequestParam("changeStatusId") int id, @RequestParam("changeStatusComplaintType") int type) {
-       	
+    	   if(type==1) {
        		Optional<ApplyForPassportVerification> object = applyForPassportVerificationRepository.findById(id);
        		if(object.isPresent()) {
        			ApplyForPassportVerification applyForPassportVerification = object.get();
        			applyForPassportVerification.setStatus(1);
        			applyForPassportVerificationRepository.save(applyForPassportVerification);
        		}
+    	   }
        		return "redirect:/admin/viewPassportApplications";
        	}
        
        
        @GetMapping("/admin/changeStatustoRed")
        public String changeStatustoRed(@RequestParam("changeStatusId") int id, @RequestParam("changeStatusComplaintType") int type) {
-    	
+    	   if(type==1) {
        		Optional<ApplyForPassportVerification> object = applyForPassportVerificationRepository.findById(id);
        		if(object.isPresent()) {
        			ApplyForPassportVerification applyForPassportVerification = object.get();
        			applyForPassportVerification.setStatus(2);
        			applyForPassportVerificationRepository.save(applyForPassportVerification);
        		}
+    	   }
        		return "redirect:/admin/viewPassportApplications";
        		}
 }
