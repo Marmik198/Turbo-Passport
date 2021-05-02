@@ -28,7 +28,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <!--Style css-->
-    <link rel="stylesheet" href="../../../static/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 
@@ -72,7 +72,7 @@
                 <img src="image/1.jpg" class="d-block w-100 carousalimage" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Indian passport</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Proud to be an Indian</p>
                     <button class="btn btn-danger">Foreign Affairs</button>
                     <button class="btn btn-primary">Passport Service</button>
                     <button class="btn btn-success">Videsh Bhavan</button>
@@ -82,7 +82,7 @@
                 <img src="image/2.jpg" class="d-block w-100 carousalimage" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Videsh Bhavan, Mumbai</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Proud to be an Indian</p>
                     <button class="btn btn-danger">Foreign Affairs</button>
                     <button class="btn btn-primary">Passport Service</button>
                     <button class="btn btn-success">Videsh Bhavan</button>
@@ -92,7 +92,7 @@
                 <img src="image/3.jpg" class="d-block w-100 carousalimage" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Types of Indian Passport</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Proud to be an Indian</p>
                     <button class="btn btn-danger">Foreign Affairs</button>
                     <button class="btn btn-primary">Passport Service</button>
                     <button class="btn btn-success">Videsh Bhavan</button>

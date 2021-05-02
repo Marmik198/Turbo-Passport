@@ -1,6 +1,7 @@
 package com.advancejava.auditcourse.TurboPassport.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -13,8 +14,7 @@ import com.advancejava.auditcourse.TurboPassport.entity.User;
 import com.advancejava.auditcourse.TurboPassport.repository.ApplyForPassportVerificationRepository;
 import com.advancejava.auditcourse.TurboPassport.repository.UserRepository;
 
-
-
+@Controller
 public class EndpointController {
 
 	@Autowired
@@ -23,7 +23,6 @@ public class EndpointController {
 	@Autowired
     private ApplyForPassportVerificationRepository applyForPassportVerificationRepository;
 	
-	// home page
     @RequestMapping("/home")
     public String loginMessage(){
         return "home";
