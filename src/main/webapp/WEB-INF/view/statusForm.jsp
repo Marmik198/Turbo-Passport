@@ -11,7 +11,7 @@
 <!-- reference our style sheet -->
 
  <link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-   <link href="css/welcome.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -41,7 +41,7 @@ font-size:18px;
 
 <body style="background-color:#292b2c;color:white">
 	<div class="container" style="text-align:center">
-	  <h2 style="text-decoration:underline">View Status Of Your Complaint</h2>
+	  <h2 style="text-decoration:underline">View Status Of Your Application</h2>
 	  <p style="text-align:left;font-size:25px;margin-top:30px">Enter your acknowledgment id and use the dropdown-menu below to choose the type of crime reported .</p>
 	 
 	 	<c:url var="getStatus" value="/admin/getStatus">

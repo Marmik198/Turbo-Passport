@@ -54,11 +54,7 @@
            <form action="register" class="form-inline">
 	    		<input type="submit" class="btn btn-dark btn-success" value="Register"/>
 	        </form>
-	        <form action="/admin/login" class="form-inline">
-	        	<input type="submit" class="btn btn-dark btn-success" value="Admin Login"/>
-	        </form>
-
-
+	      
     </nav>
 	
 	
@@ -124,13 +120,14 @@
         </div>
         <div class="container-1">
             <div class="a">
-                <p class="grid-item">Book An Appointment</p>
+                <p class="grid-item"><a href="/applyForPassportVerification">Book An Appointment</a></p>
+                
             </div>
             <div class="b">
-                <p class="grid-item">Check Your Status</p>
+                <p class="grid-item"> <a href="/showStatusForm"> Check Your Status</a></p>
             </div>
             <div class="c">
-                <p class="grid-item">Admin Login</p>
+                <p class="grid-item"><a href="/admin/login">Admin Login</a></p>
             </div>
         </div>
     </div><br><br>
@@ -146,7 +143,7 @@
         <div class="container my-4">
             <div class="row featurette d-flex justify-content-center align-items-center text-center">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">Passport Appointments <span class="text-muted">It’ll blow your mind.</span></h2>
+                    <h2 class="featurette-heading">Passport Appointments</h2>
                     <p class="lead">Book passport appointments online and grt appropriate feedback.</p>
                 </div>
                 <div class="col-md-5">
@@ -155,7 +152,7 @@
             </div>
             <div class="row featurette d-flex justify-content-center align-items-center text-center">
                 <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading">Types of Passport <span class="text-muted">It’ll blow your mind.</span></h2>
+                    <h2 class="featurette-heading">Types of Passport</h2>
                     <p class="lead">Know about the different types of passports, and learn how to apply for it.</p>
                 </div>
                 <div class="col-md-5 order-md-1">
@@ -164,7 +161,7 @@
             </div>
             <div class="row featurette d-flex justify-content-center align-items-center text-center">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">Videsh Bhawan, Mumbai <span class="text-muted">It’ll blow your mind.</span></h2>
+                    <h2 class="featurette-heading">Videsh Bhawan, Mumbai</h2>
                     <p class="lead">Passport Verification Headquarters at Mumbai, BKC popularly known as Videsh Bhavan.</p>
                 </div>
                 <div class="col-md-5">

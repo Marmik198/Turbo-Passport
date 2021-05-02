@@ -10,7 +10,7 @@
 	<!-- reference our style sheet -->
 
 	 <link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link href="css/welcome.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -39,7 +39,7 @@
 				
 				<!-- loop over and print our applications -->
 							
-					<c:set var = "tempReport" value="${showCStatus}"/>
+					<c:set var = "tempReport" value="${applyForPassportVerification}"/>
 			 
 						
 								
@@ -65,7 +65,9 @@
 			</table>
 				
 		</div>
-	
+	<p>
+			<a href="${pageContext.request.contextPath}/home">Back to Home</a>
+		</p>
 	</div>
 	
 
