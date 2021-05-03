@@ -15,7 +15,7 @@ Thus, helping the users by reducing their struggle for getting a passport.
 1. Clone the repository
 2. Open in any favourite ide
 3. Run class TurboPassportApplication as normal java class
-4. Goto localhost:8080/<endpt>
+4. Goto localhost:8080/home
 
 
 #### Completed Development :smile: 	
